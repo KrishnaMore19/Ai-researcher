@@ -219,33 +219,6 @@ The frontend will be available at: **http://localhost:3000**
 - Choose plan: Starter (Free), Pro (₹29.99), or Enterprise (₹99.99)
 - Complete payment via Razorpay
 
-## 🏗️ Project Structure
-
-```
-project-root/
-│
-├── backend/                 # FastAPI backend
-│   ├── app/
-│   │   ├── api/v1/         # API routes
-│   │   ├── core/           # Configuration
-│   │   ├── models/         # Database models
-│   │   ├── schemas/        # Pydantic schemas
-│   │   ├── services/       # Business logic
-│   │   └── utils/          # Utilities
-│   ├── storage/            # File storage
-│   ├── .env                # Environment variables
-│   └── requirements.txt    # Python dependencies
-│
-├── frontend/               # Next.js frontend
-│   ├── app/                # App router pages
-│   ├── components/         # React components
-│   ├── store/              # Zustand stores
-│   ├── .env.local          # Environment variables
-│   └── package.json        # Node dependencies
-│
-└── README.md
-```
-
 ## 🐛 Troubleshooting
 
 ### Backend Issues
