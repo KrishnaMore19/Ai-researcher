@@ -1,0 +1,45 @@
+# FastAPI + Server
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Database
+SQLAlchemy
+asyncpg
+psycopg2-binary        # Optional if needed for sync operations
+
+# Auth / Security
+passlib[bcrypt]
+python-jose[cryptography]
+
+# Schemas / File Handling
+pydantic
+python-multipart
+aiofiles
+
+# LLM / AI / Embeddings
+openai                     # Grok via OpenAI-compatible API
+langchain
+chromadb
+tiktoken                  # For tokenization & embeddings
+faiss-cpu                 # Vector search (optional)
+llama-index               # Optional for Llama integration
+httpx                      # HTTP requests
+
+# PDF Handling
+pdfplumber
+PyPDF2
+
+# Cache & Logging
+redis
+loguru
+
+# Testing & CLI
+pytest
+pytest-asyncio
+typer
+rich
+pydantic-settings
+pydantic[email]
+
+razorpay
